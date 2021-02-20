@@ -7,6 +7,7 @@ var multiplyBtn = document.getElementById('multiply');
 var divideBtn = document.getElementById('divide');
 var operatorButtons = [addBtn, subtractBtn, multiplyBtn, divideBtn];
 var inputedValue = '';
+
 //add eventlisteners to the numbers and join them together when clicked
 numberButtons.forEach(function (numberRow) {
     numberRow.childNodes.forEach(function (number) {
